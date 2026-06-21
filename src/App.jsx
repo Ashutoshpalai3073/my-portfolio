@@ -156,6 +156,15 @@ const PROJECTS = [
     icon: Target,
     desc: "30-day social strategy spanning 6 content domains with engagement flows. Built GTM audience segmentation across Instagram, YouTube, LinkedIn, Pinterest, TikTok & Reddit. Aligned 4 customer personas with conversion-focused funnels; designed SEO content framework with keyword research, analytics dashboards & performance tracking.",
   },
+  {
+    title: "Delhivery Graph Intelligence",
+    subtitle: "Logistics Network Optimization, Bottleneck Analysis & ETA Forecasting",
+    period: "June 2026",
+    link: "https://delhivery-graph-intelligence.streamlit.app/",
+    stack: ["Graph Theory", "node2vec", "XGBoost", "Streamlit", "NetworkX", "Python"],
+    icon: TrendingUp,
+    desc: "Modelled logistics network as a directed graph (1,657 nodes, 2,783 corridors); betweenness centrality & PageRank revealed 3 hubs drive 39% of delay across 17.5% of legs. Engineered node2vec + gradient-boosted ETA model on 26,369 OD legs, cutting MAE by 11.6% (27.5→24.3 min) and +3.7 pts within-15% accuracy over a leakage-free baseline. Built ML-backed FTL vs. Carting framework quantifying 60–77 min/shipment savings on long-haul corridors with breakeven SLA values, replacing heuristic route selection. Delivered hosted Streamlit dashboard + consulting Strategy Memo with top-5 bottleneck hubs, corridor interventions, and ₹25L annualised revenue-at-risk recovery estimate.",
+  },
 ];
 
 const COMPETITIONS = [
